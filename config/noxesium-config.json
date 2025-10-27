@@ -1,0 +1,15 @@
+{
+  "resetToggleKeys": false,
+  "renderMapsInUi": "DEFAULT",
+  "showFpsOverlay": false,
+  "showGameTimeOverlay": false,
+  "enableQibSystemDebugging": false,
+  "showGlowingSettings": false,
+  "dumpIncomingPackets": false,
+  "dumpOutgoingPackets": false,
+  "printPacketExceptions": false,
+  "debugScoreboardTeams": false,
+  "showCullingBoxes": false,
+  "mapUiSize": 0.8,
+  "mapUiLocation": "TOP"
+}

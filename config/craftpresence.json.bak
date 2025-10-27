@@ -1,0 +1,213 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 769,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1292489096056537161",
+    "defaultIcon": "menu",
+    "enableJoinRequests": true,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": true
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "default",
+    "dimensionData": {
+      "default": {
+        "textOverride": "Galaxy Client 1.21.4(920J-S3P6)",
+        "iconOverride": "servers"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "server.icon",
+    "fallbackServerName": "Đang chơi server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "Playing sv": {
+        "textOverride": "Đang chơi {server.address.full}"
+      },
+      "default": {
+        "textOverride": "Đang chơi {server.address.full}"
+      },
+      "SV": {
+        "textOverride": "Đang chơi {server.address.full}"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "Đang ở menu",
+      "iconOverride": "servers",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "loadingData": {
+      "textOverride": "Loading...",
+      "iconOverride": "servers"
+    },
+    "lanData": {
+      "textOverride": "Đang chơi mạng Lan",
+      "iconOverride": "servers"
+    },
+    "singleplayerData": {
+      "textOverride": "Đang chơi đơn",
+      "iconOverride": "servers"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}",
+      "iconOverride": "servers"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": -1
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "14.225.231.13": "https://api.mcsrvstat.us/icon/14.225.231.13",
+      "default": "https://via.placeholder.com/256.png",
+      "aemine.vn": "https://api.mcsrvstat.us/icon/aemine.vn",
+      "levinhtoan8116pc": "https://mc-heads.net/avatar/51e893d9c2b511ecb2cef02f74958c02",
+      "LeMinhXang12pc": "https://mc-heads.net/avatar/a570dd24034e11eda78bf02f74958c02",
+      "luckyvn.net": "https://api.mcsrvstat.us/icon/luckyvn.net",
+      "msn-purse.joinmc.link": "https://api.mcsrvstat.us/icon/msn-purse.joinmc.link",
+      "endlessrealm.net": "https://api.mcsrvstat.us/icon/endlessrealm.net",
+      "xinchaocacban.aternos.me": "https://api.mcsrvstat.us/icon/xinchaocacban.aternos.me",
+      "STa12.aternos.me": "https://api.mcsrvstat.us/icon/STa12.aternos.me",
+      "1213NTL_NGU": "https://mc-heads.net/avatar/51e893d9c2b511ecb2cef02f74958c02",
+      "SinhtonAnarchy.aternos.me": "https://api.mcsrvstat.us/icon/SinhtonAnarchy.aternos.me",
+      "GiaBao12367.aternos.me": "https://api.mcsrvstat.us/icon/GiaBao12367.aternos.me",
+      "SVMCVN": "https://mc-heads.net/avatar/b3f475e7c8f33f23b8721f964d8e183c",
+      "heromc.net": "https://api.mcsrvstat.us/icon/heromc.net",
+      "mc.mineberry.org": "https://api.mcsrvstat.us/icon/mc.mineberry.org",
+      "localhost": "https://api.mcsrvstat.us/icon/localhost",
+      "Giabao12367qZYU.aternos.me": "https://api.mcsrvstat.us/icon/Giabao12367qZYU.aternos.me",
+      "147.185.221.23": "https://api.mcsrvstat.us/icon/147.185.221.23",
+      "grassmine.vn": "https://api.mcsrvstat.us/icon/grassmine.vn",
+      "3fmc.com": "https://api.mcsrvstat.us/icon/3fmc.com",
+      "particular-faqs.gl.joinmc.link": "https://api.mcsrvstat.us/icon/particular-faqs.gl.joinmc.link",
+      "2y2c.org": "https://api.mcsrvstat.us/icon/2y2c.org",
+      "anarchy.vn": "https://api.mcsrvstat.us/icon/anarchy.vn",
+      "pe.grassmine.vn": "https://api.mcsrvstat.us/icon/pe.grassmine.vn",
+      "147.185.221.180": "https://api.mcsrvstat.us/icon/147.185.221.180",
+      "3b3t.org": "https://api.mcsrvstat.us/icon/3b3t.org",
+      "notcamvnsmp.aternos.me": "https://api.mcsrvstat.us/icon/notcamvnsmp.aternos.me",
+      "notcamvnsur.aternos.me": "https://api.mcsrvstat.us/icon/notcamvnsur.aternos.me"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}
