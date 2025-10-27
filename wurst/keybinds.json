@@ -1,0 +1,21 @@
+{
+  "key.keyboard.apostrophe": "AutoBuild",
+  "key.keyboard.b": "fastplace;fastbreak",
+  "key.keyboard.escape": ".setcheckbox nukerlegit lock_id toggle ; .setcheckbox extraelytra height_control on",
+  "key.keyboard.g": "flight",
+  "key.keyboard.h": "say /home",
+  "key.keyboard.i": "AutoMine",
+  "key.keyboard.j": "jesus",
+  "key.keyboard.k": "multiaura",
+  "key.keyboard.m": "KillauraLegit",
+  "key.keyboard.n": "NukerLegit",
+  "key.keyboard.period": "AutoWalk",
+  "key.keyboard.r": "killaura",
+  "key.keyboard.right.control": "clickgui",
+  "key.keyboard.right.shift": "navigator",
+  "key.keyboard.semicolon": "speednuker",
+  "key.keyboard.u": "freecam",
+  "key.keyboard.v": "Fullbright",
+  "key.keyboard.x": "x-ray",
+  "key.keyboard.y": "sneak"
+}
